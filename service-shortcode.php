@@ -20,7 +20,7 @@ function asif_service_box_shortcode($atts, $content = null) {
         $link_source = $external_link;
     }
 	
-    $box_bg_array = wp_get_attachment_image_src( $upload_icon, 'medium');
+    $box_bg_array = wp_get_attachment_image_src( $box_background, 'medium');
 	
     $asif_service_box_markup = '
         <div class="asif-service-box">
